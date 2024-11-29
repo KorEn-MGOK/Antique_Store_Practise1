@@ -1,0 +1,100 @@
+﻿<Window x:Class="AppAnt1.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AppAnt1"
+        mc:Ignorable="d"
+        Title="Window2" Height="450" Width="800">
+    <Grid>
+        <!-- Определение строк и столбцов -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <!-- Строка занимает все доступное пространство -->
+            <RowDefinition Height="*"/>
+            <!-- Строка занимает все доступное пространство -->
+            <RowDefinition Height="*"/>
+            <!-- Строка занимает все доступное пространство -->
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <!-- Столбец занимает все доступное пространство -->
+            <ColumnDefinition Width="*"/>
+            <!-- Столбец занимает все доступное пространство -->
+            <ColumnDefinition Width="*"/>
+            <!-- Столбец занимает все доступное пространство -->
+            <ColumnDefinition Width="*"/>
+            <!-- Столбец занимает все доступное пространство -->
+            <ColumnDefinition Width="*"/>
+            <!-- Столбец занимает все доступное пространство -->
+            <ColumnDefinition Width="*"/>
+            <!-- Столбец занимает все доступное пространство -->
+            <ColumnDefinition Width="*"/>
+            <!-- Столбец занимает все доступное пространство -->
+        </Grid.ColumnDefinitions>
+
+        <Image Source="C:\Users\student student\source\repos\AppAnt1\AppAnt1\Resources\Coin.jpg" Grid.Row="0" Grid.Column="0" />
+        <Image Source="C:\Users\student student\source\repos\AppAnt1\AppAnt1\Resources\Mirror.jpg" Grid.Row="0" Grid.Column="1" />
+        <Image Source="C:\Users\student student\source\repos\AppAnt1\AppAnt1\Resources\MusicBox.jpg" Grid.Row="0" Grid.Column="2" />
+        <Image Source="C:\Users\student student\source\repos\AppAnt1\AppAnt1\Resources\Necklace.jpg" Grid.Row="0" Grid.Column="3" />
+        <Image Source="C:\Users\student student\source\repos\AppAnt1\AppAnt1\Resources\Ring.jpg" Grid.Row="0" Grid.Column="4" />
+        <Image Source="C:\Users\student student\source\repos\AppAnt1\AppAnt1\Resources\SilverClocks.jpeg" Grid.Row="0" Grid.Column="5" />
+        <Image Source="C:\Users\student student\source\repos\AppAnt1\AppAnt1\Resources\Vase.jpg" Grid.Row="0" Grid.Column="6"/>
+        
+        <Button x:Name="Buy0" Content="Добавить в корзину" Click="Buy0_Click" 
+        Grid.Row="2" Grid.Column="0" 
+        HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+        
+        <Button x:Name="Buy1" Content="Добавить в корзину" Click="Buy1_Click" 
+        Grid.Row="2" Grid.Column="1" 
+        HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+        
+        <Button x:Name="Buy2" Content="Добавить в корзину" Click="Buy2_Click" 
+        Grid.Row="2" Grid.Column="2" 
+        HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+        
+        <Button x:Name="Buy3" Content="Добавить в корзину" Click="Buy3_Click" 
+        Grid.Row="2" Grid.Column="3" 
+        HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+
+        <Button x:Name="Buy4" Content="Добавить в корзину" Click="Buy4_Click" 
+        Grid.Row="2" Grid.Column="4" 
+        HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+
+        <Button x:Name="Buy5" Content="Добавить в корзину" Click="Buy5_Click" 
+        Grid.Row="2" Grid.Column="5" 
+        HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+
+        <Button x:Name="Buy6" Content="Добавить в корзину" Click="Buy6_Click" 
+        Grid.Row="2" Grid.Column="6" 
+        HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+
+        <TextBox x:Name="Coin" Grid.Row="1" Grid.Column="0" 
+        HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+        TextWrapping="Wrap" Text="Цена: 200000$"/>
+
+        <TextBox x:Name="Mirror" Grid.Row="1" Grid.Column="1" 
+        HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+        TextWrapping="Wrap" Text="Цена: 300000$"/>
+
+        <TextBox x:Name="MusicBox" Grid.Row="1" Grid.Column="2" 
+        HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+        TextWrapping="Wrap" Text="Цена: 1000000$"/>
+
+        <TextBox x:Name="Necklace" Grid.Row="1" Grid.Column="3" 
+        HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+        TextWrapping="Wrap" Text="Цена: 3500000$"/>
+
+        <TextBox x:Name="Ring" Grid.Row="1" Grid.Column="4" 
+        HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+        TextWrapping="Wrap" Text="Цена: 5000000$"/>
+
+        <TextBox x:Name="SilverClocks" Grid.Row="1" Grid.Column="5" 
+        HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+        TextWrapping="Wrap" Text="Цена: 25500000$"/>
+
+        <TextBox x:Name="Vase" Grid.Row="1" Grid.Column="6" 
+        HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+        TextWrapping="Wrap" Text="Цена: 30000000$"/>
+    </Grid>
+</Window>
